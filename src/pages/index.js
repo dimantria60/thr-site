@@ -1,22 +1,18 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
+
 import Layout from '../components/layaut';
 import { StaticImage } from 'gatsby-plugin-image';
+import Navbar from '../components/navbar/navbar.component';
+import HeaderBar from '../components/header-bar/header-bar.component';
 
 // markup
 const IndexPage = () => {
-  return (
-    <div>
-      <Layout pageTitle="Home Page">
-        <h1>Thr Header</h1>
-        <Link to="/about">About</Link>
-        <StaticImage
-        alt="logo"
-        src="../images/logo.png"
-      /> 
-      </Layout>
-    </div>
-  )
-}
+	return (
+		<div>
+			<HeaderBar></HeaderBar>
+			<StaticImage alt='logo' src='../images/logo.png' />
+		</div>
+	);
+};
 
 export default IndexPage;
