@@ -14,7 +14,14 @@ const AboutPage = () => {
         <HeaderBar></HeaderBar>
 
       </header>
-      <section>
+      <section className="container">
+        <ContentVideo
+          videoSrcURL={Facebook}
+          videoTittle='Venta e instalación en equipos de Video Vigilancia y Alarma Vecinal'
+          videoDescription='Calidad y tecnología en sistemas de Video Vigilancia como también lo más nuevo en Alarma Vecinal y con el mejor soporte técnico.'
+        />
+        <br />
+        <hr />
         <ContentVideo
           videoSrcURL={THRVideo}
           videoTittle='THR a su servicio'
@@ -22,11 +29,7 @@ const AboutPage = () => {
         />
         <br />
         <hr />
-        <ContentVideo
-          videoSrcURL={Facebook}
-          videoTittle='Venta e instalación en equipos de Video Vigilancia y Alarma Vecinal'
-          videoDescription='Calidad y tecnología en sistemas de Video Vigilancia como también lo más nuevo en Alarma Vecinal y con el mejor soporte técnico.'
-        />
+
       </section>
 
       <footer>
