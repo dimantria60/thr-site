@@ -1,34 +1,23 @@
-
 .nav-links {
+  margin: 10px 0;
   display: flex;
-  justify-content: center;
   list-style: none;
 }
 
 .nav-links > li > a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
-  padding: 23px 12px;
 }
 .nav-link-item {
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 .nav-link-text {
   color: black;
 }
-.nav-img {
-  margin: 0 10px;
-	width: 200px;
-	height: 85px;
-}
 
-.img-container{
+.bar-black {
+  background-color: black;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
-}
-
-.nav-bar{
-
 }

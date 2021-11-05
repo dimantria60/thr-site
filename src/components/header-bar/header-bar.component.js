@@ -8,7 +8,6 @@ const HeaderBar = () => {
 		<div className={headerBarContainer}>
 			<div className={container}>
 				<div className={row}>
-					<StaticImage className={navImg} alt='logo' src='../../images/logodef.png' />
 					<Navbar></Navbar>
 				</div>
 			</div>

@@ -1,14 +1,13 @@
 .header-bar-container {
-	padding: 20px 0;
+	padding: 5px 0;
 	background-color: #4e4cbd;
 }
 
 .container {
-	width: 1170px;
 	padding-right: 15px;
 	padding-left: 15px;
-	margin-right: 200px;
-	margin-left: 200px;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 .row {
