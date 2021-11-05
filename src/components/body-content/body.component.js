@@ -1,10 +1,12 @@
 import * as React from 'react';
+import SectionProducts from '../products/products.component';
 import Slider from '../slider/slider.component';
 
-const BodyLayout = () =>{
-  return(
+const BodyLayout = () => {
+  return (
     <>
-      <Slider/>
+      <Slider />
+      <SectionProducts />
     </>
   )
 }

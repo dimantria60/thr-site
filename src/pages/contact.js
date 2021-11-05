@@ -7,23 +7,23 @@ import BodyLayout from '../components/body-content/body.component';
 import FooterComponent from '../components/footer-content/footer.component';
 
 // markup
-const IndexPage = () => {
-	return (
-		<>
-			<header>
-				<DarkBar></DarkBar>
-				<HeaderBar></HeaderBar>
+const ContactPage = () => {
+  return (
+    <>
+      <header>
+        <DarkBar></DarkBar>
+        <HeaderBar></HeaderBar>
 
-			</header>
-			<section>
-				<BodyLayout />
-			</section>
+      </header>
+      <section>
+        <h1>Contenido de página de contacto</h1>
+      </section>
 
-			<footer>
-				<FooterComponent/>
-			</footer>
-		</>
-	);
+      <footer>
+        <FooterComponent />
+      </footer>
+    </>
+  );
 };
 
-export default IndexPage;
+export default ContactPage;

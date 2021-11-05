@@ -7,12 +7,6 @@ module.exports = {
 		'gatsby-plugin-image',
 		'gatsby-plugin-sharp',
 		`gatsby-plugin-sass`,
-		{
-			resolve: 'gatsby-source-filesystem',
-			options: {
-			  name: `backgrounds`,
-			  path: `${__dirname}/src/backgrounds`,
-			}
-		},
+		
 	],
 };

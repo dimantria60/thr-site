@@ -1,0 +1,20 @@
+.footer-start{
+  background-color:rgb(61, 60, 66);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img-container{
+  width: 150px;
+  height: auto;
+}
+
+.list-group-item{
+  list-style: none;
+  color: rgba(255, 255, 255, 0.507);
+}
+
+.list-group-item > li {
+  text-decoration: none;
+}
