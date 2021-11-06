@@ -15,6 +15,7 @@ const AboutPage = () => {
 
       </header>
       <section className="container">
+        <h1 className="text-center text-primary">Sobre nuestro trabajo en THR</h1>
         <ContentVideo
           videoSrcURL={Facebook}
           videoTittle='Venta e instalación en equipos de Video Vigilancia y Alarma Vecinal'

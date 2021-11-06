@@ -1,6 +1,7 @@
 .container{
   margin: 50px;
   display: flex;
+  flex-direction: column;
 }
 
 .container-carrousel{

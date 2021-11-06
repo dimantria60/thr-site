@@ -5,6 +5,7 @@ import HeaderBar from '../components/header-bar/header-bar.component';
 import DarkBar from '../components/dark-bar/dark-bar.component';
 import BodyLayout from '../components/body-content/body.component';
 import FooterComponent from '../components/footer-content/footer.component';
+import Map from '../components/map-content/map.component';
 
 // markup
 const ContactPage = () => {
@@ -16,7 +17,9 @@ const ContactPage = () => {
 
       </header>
       <section>
-        <h1>Contenido de página de contacto</h1>
+        <div className="container">
+          <Map></Map>
+        </div>
       </section>
 
       <footer>

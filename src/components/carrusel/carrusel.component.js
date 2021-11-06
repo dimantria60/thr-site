@@ -37,9 +37,9 @@ const Carrousel = () => {
 								alt='...'
 							/>
 							<div className='carousel-caption d-none d-md-block'>
-								<h5>First slide label</h5>
+								<h5></h5>
 								<p>
-									Some representative placeholder content for the first slide.
+									
 								</p>
 							</div>
 						</div>
@@ -50,9 +50,9 @@ const Carrousel = () => {
 								alt='...'
 							/>
 							<div className='carousel-caption d-none d-md-block'>
-								<h5>Second slide label</h5>
+								<h5></h5>
 								<p>
-									Some representative placeholder content for the second slide.
+									
 								</p>
 							</div>
 						</div>

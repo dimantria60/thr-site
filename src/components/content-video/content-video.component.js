@@ -5,7 +5,7 @@ const ContentVideo = ({ videoSrcURL, videoTittle, videoDescription }) => {
   return (
     <div className={container}>
       <div className={detailsContainer}>
-        <h1>{videoTittle}</h1>
+        <h3>{videoTittle}</h3>
         <p>{videoDescription}</p>
       </div>
       <div className={videoContainer} >
