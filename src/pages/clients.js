@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import Carrousel from '../components/carrusel/carrusel.component'
 import { StaticImage } from 'gatsby-plugin-image';
 import HeaderBar from '../components/header-bar/header-bar.component';
 import DarkBar from '../components/dark-bar/dark-bar.component';
@@ -16,7 +16,9 @@ const ClientPage = () => {
 
       </header>
       <section>
-        <h1>Contenido de página de clientes</h1>
+        <div>
+          <Carrousel />
+        </div>
       </section>
 
       <footer>
