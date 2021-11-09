@@ -10,6 +10,7 @@ import FooterComponent from '../components/footer-content/footer.component';
 const IndexPage = () => {
 	return (
 		<>
+			<link rel="shortcut icon" href="/src/images/favicon.ico" />
 			<header>
 				<DarkBar></DarkBar>
 				<HeaderBar></HeaderBar>
@@ -20,7 +21,7 @@ const IndexPage = () => {
 			</section>
 
 			<footer>
-				<FooterComponent/>
+				<FooterComponent />
 			</footer>
 		</>
 	);
