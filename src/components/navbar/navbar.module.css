@@ -38,7 +38,26 @@
   justify-content: center;
   margin-bottom: 20px;
 }
+.nav-links-mobil{
+  display: none;
+}
 
-.nav-bar{
 
+@media only screen and (max-width:430px){
+    .nav-links > li > a:hover, .nav-links > li > a{
+      font-size: 10px;
+    }
+    .nav-links {
+      display: block;
+    }
+    .nav-bar{
+      display: none;
+    }
+    .nav-links-mobil{
+      display: flex;
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      margin: 15px;
+    }
 }

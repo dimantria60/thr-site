@@ -5,6 +5,7 @@ import HeaderBar from '../components/header-bar/header-bar.component';
 import DarkBar from '../components/dark-bar/dark-bar.component';
 import BodyLayout from '../components/body-content/body.component';
 import FooterComponent from '../components/footer-content/footer.component';
+import Navigation from '../components/navigation/navigation.component';
 
 // markup
 const IndexPage = () => {
@@ -14,7 +15,7 @@ const IndexPage = () => {
 			<header>
 				<DarkBar></DarkBar>
 				<HeaderBar></HeaderBar>
-
+				
 			</header>
 			<section>
 				<BodyLayout />

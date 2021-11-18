@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { navLinks, navLinkItem, navLinkText, navImg, navBar, imgContainer} from './navbar.module.css';
+import { navLinks, navLinkItem, navLinkText, navImg, navBar, imgContainer, navLinksMobil } from './navbar.module.css';
 import { StaticImage } from 'gatsby-plugin-image';
 import { FaHome } from 'react-icons/fa';
+import Navigation from '../navigation/navigation.component';
 
 const Navbar = () => {
 	return (
@@ -10,11 +11,14 @@ const Navbar = () => {
 			<div className={imgContainer}>
 				<StaticImage className={navImg} alt='logo' src='../../images/image.png' />
 			</div>
-			<div className={navBar}>
+			<div className={navLinksMobil}>
+				<Navigation className={navLinksMobil}></Navigation>
+			</div>
+			<nav className={navBar}>
 				<ul className={navLinks}>
 					<li className={navLinkItem}>
 						<Link className={navLinkText} to='/'>
-							<FaHome/>
+							<FaHome />
 						</Link>
 					</li>
 					<li className={navLinkItem}>
@@ -33,7 +37,7 @@ const Navbar = () => {
 						</Link>
 					</li>
 				</ul>
-			</div>
+			</nav>
 		</div>
 	);
 };

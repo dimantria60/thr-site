@@ -19,3 +19,9 @@
 .list-group-item > li {
   text-decoration: none;
 }
+
+@media only screen and (max-width:430px){
+  .list-group-item{
+    font-size: 10px;
+  }
+}
