@@ -6,11 +6,21 @@
 }
 
 .nav-links > li > a{
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
   text-decoration: none;
   font-size: 20px;
   color: white;
-  padding: 23px 12px;
+ 
 }
+
+.nav-links > li > a:hover, .nav-links > li > a:focus{
+  background-size: 100% 2px;
+}
+
 .nav-link-item {
   padding-right: 2rem;
 }

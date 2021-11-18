@@ -7,7 +7,7 @@ const Map = () => {
     <div className={mapContainer} >
       <div className={imgContainer}>
         <StaticImage
-          src="../../images/Captura.PNG" />
+          src="../../images/Captura.PNG" alt="map" />
       </div>
       <h1>Ubicación de la empresa: </h1>
       <div>

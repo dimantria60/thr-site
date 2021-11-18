@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 import { navLinks, navLinkItem, navLinkText, navImg, navBar, imgContainer} from './navbar.module.css';
 import { StaticImage } from 'gatsby-plugin-image';
+import { FaHome } from 'react-icons/fa';
 
 const Navbar = () => {
 	return (
@@ -13,22 +14,22 @@ const Navbar = () => {
 				<ul className={navLinks}>
 					<li className={navLinkItem}>
 						<Link className={navLinkText} to='/'>
-							HOME
+							<FaHome/>
 						</Link>
 					</li>
 					<li className={navLinkItem}>
 						<Link className={navLinkText} to='/about'>
-							ABOUT
+							NOSOTROS
 						</Link>
 					</li>
 					<li className={navLinkItem}>
 						<Link className={navLinkText} to='/contact'>
-							CONTACT
+							CONTACTO
 						</Link>
 					</li>
 					<li className={navLinkItem}>
 						<Link className={navLinkText} to='/clients'>
-							CLIENTS
+							CLIENTES
 						</Link>
 					</li>
 				</ul>
