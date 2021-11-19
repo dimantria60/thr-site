@@ -26,6 +26,11 @@ const DarkBar = () => {
                 <FaWhatsapp />
               </Link>
             </li>
+            <li className={navLinkItem}>
+              <Link target="_blank" to="https://wa.me/522383901772?text=Hola%20necesito%20informacion%20de%20sus%20servicios!" className={navLinkText}>
+                <FaWhatsapp />
+              </Link>
+            </li>
 
             <li className={navLinkItem}>
               <Link className={navLinkText}>
