@@ -24,7 +24,7 @@ const Carrousel = () => {
 							<StaticImage src="../../images/logocliente4.png" className="d-block w-100" alt="..." />
 						</div>
 						<div className="carousel-item">
-							<StaticImage src="../../images/logocliente2.jpg" className="d-block w-100" alt="..." />
+							<StaticImage src="../../images/ldc.jpg" className="d-block w-100" alt="..." />
 						</div>
 						<div className="carousel-item">
 							<StaticImage src="../../images/logocliente5.jpg" className="d-block w-100" alt="..." />

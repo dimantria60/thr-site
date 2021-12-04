@@ -10,9 +10,9 @@ const BodyLayout = () => {
       <Slider />
       <SectionProducts />
 
-      <StaticImage className={imagesContainer} src="../../images/slidemid.jpg" alt="camera" />
+      {/* <StaticImage className={imagesContainer} src="../../images/slidemid.jpg" alt="camera" />
 
-      <StaticImage className={imagesContainer} src="../../images/slidemidgamer.png" alt="camera" />
+      <StaticImage className={imagesContainer} src="../../images/slidemidgamer.png" alt="camera" /> */}
     </>
   )
 }
