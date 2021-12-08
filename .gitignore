@@ -1,5 +1,5 @@
 node_modules/
 .cache/
 src/videos
-
+package-lock.json
 public/
