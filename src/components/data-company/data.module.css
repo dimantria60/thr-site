@@ -1,0 +1,14 @@
+.contain-blue{
+  background-color:#009ADA;
+  color: white;
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+  padding: 15px;
+}
+
+.box{
+  box-shadow: 10px 24px 72px -28px rgba(0,0,0,0.75);
+}

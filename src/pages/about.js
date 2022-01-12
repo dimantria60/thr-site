@@ -5,6 +5,7 @@ import FooterComponent from '../components/footer-content/footer.component';
 import ContentVideo from '../components/content-video/content-video.component';
 import THRVideo from '../videos/THRWORK.mp4'
 import Facebook from '../videos/Facebook.mp4'
+import DataCompany from '../components/data-company/data.component'
 
 const AboutPage = () => {
   return (
@@ -32,6 +33,8 @@ const AboutPage = () => {
         <hr />
 
       </section>
+
+      <DataCompany></DataCompany>
 
       <footer>
         <FooterComponent />

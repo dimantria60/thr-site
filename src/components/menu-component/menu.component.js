@@ -16,7 +16,7 @@ const Menu = (props) => {
       onClick={props.toggle}
       onKeyDown={props.toggle}
     >
-      <Link to="/"> <h1><FaHome /> &nbsp; Home</h1></Link>
+      <Link to="/"> <h1><FaHome /> &nbsp; Inicio</h1></Link>
       <Link to="/about"><h1> <FaCog /> &nbsp; Nosotros</h1></Link>
       <Link to="/contact"> <h1> <FaMapMarkerAlt /> &nbsp; Contacto</h1></Link>
       <Link to="/clients"><h1> <FaLaughBeam /> &nbsp; Clientes</h1></Link>
