@@ -23,7 +23,7 @@ const DataCompany = () => {
 
           </div>
         </div>
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-md-8">
             <div className={box}>
               <h1 className={containBlue}>Filosofía</h1>

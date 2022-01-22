@@ -1,11 +1,61 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { sProducts } from './products.module.css';
+import { sProducts,container, card, title, bar, emptybar, filledbar, circle, stroke } from './products.module.css';
+
 
 const SectionProducts = () => {
   return (
     <section className={sProducts}>
+
+      <div className={container}>
+        <div className={card}>
+          <h3 className={title}>Card 1</h3>
+          <div className={bar}>
+            <div className={emptybar}></div>
+            <div className={filledbar}></div>
+          </div>
+          <div className={circle}>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle className="stroke" cx="60" cy="60" r="50" />
+            </svg>
+          </div>
+        </div>
+        <div className={card}>
+          <h3 className={title}>Card 1</h3>
+          <div className={bar}>
+            <div className={emptybar}></div>
+            <div className={filledbar}></div>
+          </div>
+          <div className={circle}>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle className="stroke" cx="60" cy="60" r="50" />
+            </svg>
+          </div>
+        </div><div className={card}>
+          <h3 className={title}>Card 1</h3>
+          <div className={bar}>
+            <div className={emptybar}></div>
+            <div className={filledbar}></div>
+          </div>
+          <div className={circle}>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle className="stroke" cx="60" cy="60" r="50" />
+            </svg>
+          </div>
+        </div><div className={card}>
+          <h3 className={title}>Card 1</h3>
+          <div className={bar}>
+            <div className={emptybar}></div>
+            <div className={filledbar}></div>
+          </div>
+          <div className={circle}>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <circle className="stroke" cx="60" cy="60" r="50" />
+            </svg>
+          </div>
+        </div>
+      </div>
       <h1> Artículos Gamer</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
@@ -174,7 +224,7 @@ const SectionProducts = () => {
             </div>
           </div>
         </div>
-        
+
       </div>
       <h1>Artículos Móviles</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4">
