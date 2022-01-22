@@ -1,60 +1,44 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { sProducts,container, card, title, bar, emptybar, filledbar, circle, stroke } from './products.module.css';
+import { sProducts, container, card, title, bar, emptybar, filledbar, circle, stroke } from './products.module.css';
 
 
 const SectionProducts = () => {
   return (
     <section className={sProducts}>
-
+      <h1 class="text-center">Productos Gamer THR</h1>  
+      <hr />  
       <div className={container}>
+      
         <div className={card}>
-          <h3 className={title}>Card 1</h3>
-          <div className={bar}>
-            <div className={emptybar}></div>
-            <div className={filledbar}></div>
+          <div className="circle">
+            <StaticImage src="../../images/card1.jpg" className="card-slide" alt="..." />
           </div>
-          <div className={circle}>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle className="stroke" cx="60" cy="60" r="50" />
-            </svg>
+
+        </div>
+        <div className={card}>
+          <div className="img">
+            <StaticImage src="../../images/card2.jpg" className="card-slide" alt="..." />
           </div>
         </div>
         <div className={card}>
-          <h3 className={title}>Card 1</h3>
-          <div className={bar}>
-            <div className={emptybar}></div>
-            <div className={filledbar}></div>
-          </div>
-          <div className={circle}>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle className="stroke" cx="60" cy="60" r="50" />
-            </svg>
-          </div>
-        </div><div className={card}>
-          <h3 className={title}>Card 1</h3>
-          <div className={bar}>
-            <div className={emptybar}></div>
-            <div className={filledbar}></div>
-          </div>
-          <div className={circle}>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle className="stroke" cx="60" cy="60" r="50" />
-            </svg>
-          </div>
-        </div><div className={card}>
-          <h3 className={title}>Card 1</h3>
-          <div className={bar}>
-            <div className={emptybar}></div>
-            <div className={filledbar}></div>
-          </div>
-          <div className={circle}>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle className="stroke" cx="60" cy="60" r="50" />
-            </svg>
+          <div className="img">
+            <StaticImage src="../../images/card3.jpg" className="card-slide" alt="..." />
           </div>
         </div>
+        <div className={card}>
+          <div className="img">
+            <StaticImage src="../../images/card4.jpg" className="card-slide" alt="..." />
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div className="img-banner">
+      <StaticImage src="../../images/card1.jpg" className="card-slide" alt="..." />
+
       </div>
       <h1> Artículos Gamer</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4">
